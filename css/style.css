@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-serif;
+}
+body{
+    height: 4000px;
+}
+/* header */
+
+
+.logoo img{
+    width: 20%;
+    min-width: 20%;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* home */
+.home{
+    height: auto;
+    background-image: url(../images/home.png);
+    background-position: center;
+    background-size: cover;
+}
+.home .upper_data{
+    padding-top: 20%;
+    padding-left: 5%;
+    width: 50%;
+}
+.home .upper_data h2{
+    font-size: 80px;
+    color: #deb37e;
+    text-shadow: #deb37e 1px 0 4px;
+} .home .upper_data h4{
+    font-style: italic; 
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: #54524f;
+}
+.home .lower_data{
+    padding-left: 5%;
+    padding-top: 4%;  
+    width: 50%;
+    min-height: 100px;
+}
+.home .lower_data p{
+    min-height: 120px;
+
+}
+
+.home .lower_data p{
+    font-size: 20px;
+    font-style: italic; 
+    padding-top:2%;
+    padding-bottom: 5%;
+    color: #54524f;
+}
+
+/*lets go*/
+.titlee{
+    text-align: center;
+}
+.titlee h2{
+    color: #e2a355;
+    font-weight: bold;
+    font-size: 40px;
+}
+.titlee h4{
+    color: #54524f;
+}
+.card-body{
+    background-color:#54524f ;
+    color: white;
+}
+.card-body h5{
+    font-size: 25px;
+}
+.show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-more .btn{
+    border-radius: 10%;
+}
+.card-img-top:hover{
+    transition-duration: .4s;
+    transform: scale(1.1);
+}
+
+
+/*read more*/
+
+.readmore{
+    height: auto;
+}
+.parent{
+    display: flex;
+}
+.parent .left{
+    width: 50%;
+}
+
+.parent .right{
+    background-color:#54524f;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.parent .right h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.parent .right p{
+    font-size: 18px;
+}
+.parent .right .btn{
+    background:#e2a255;
+    color:white;
+    letter-spacing: 2px;
+}
+
+.parent .rightt{
+    background-color:#ddb37d;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.parent .rightt h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.parent .rightt p{
+    font-size: 18px;
+}
+.parent .rightt .btn{
+    background:#e2a255;
+    color:white;
+    letter-spacing: 2px;
+}
+
+
+
+/*mountains*/
+.mountains{
+    margin-top: 5%;
+    background-color:#54524f;
+    text-align: center;
+}
+
+.mountains h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 10%;
+}
+.mountains p{
+    font-size: 20px;
+    color:#dbdbdb;
+    padding-bottom: 10%;
+}
+
+
+/*explore*/
+.explore{
+    background-image:url(../images/Place\ Your\ Design\ Here.png);
+    background-position: center;
+    background-size: cover; 
+    height: 600px;
+}
+.explore .data{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.explore .data h2{
+    font-size: 50px;
+    padding-top: 15%;
+    padding-right: 10%;
+    color:#e2a255;
+    text-shadow: #deb37e 1px 0 4px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.explore .data h1{
+    font-size: 50px;
+    padding-right: 10%;
+    text-shadow: #2e2d2c 1px 0 4px;
+    font-style: italic;
+    font-weight: bold;
+    color: #54524f;;
+}
+/*lorem*/
+
+.lorem div h4{
+    color:#e2a255;
+}
+
+/*comma*/
+.comma{
+    margin-top: 10%;
+    text-align: center;
+    background-image: url(../images/Shadow.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: right;
+    background-size: contain;
+    background-position-x: right;
+}
+.comma h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+/*title*/
+.title{
+    background:#e2a255;
+    text-align: center;
+    height: auto;
+}
+.title h2{
+    color: white;
+    padding-top: 10%;
+}
+
+/*footer*/
+footer{
+    margin-top: 5%;
+    background:#7f776f;
+    color: white;
+}
+footer .container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+footer ul{
+    list-style: none;
+}
+
+footer li:hover{
+    color:#e2a255;
+    cursor: pointer;
+    transition-duration: .3s;
+    transform: scale(1.5);
+}
+
+footer i:hover{
+    color:#e2a255;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+/*up*/
+.fa-angle-double-up{
+    color: #e2a255;
+    z-index: 999;
+    bottom: 10%;
+    right: 2%;
+    position: fixed;
+    cursor: pointer;
+    display:none;
+
+}
